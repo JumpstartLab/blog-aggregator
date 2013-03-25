@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blair Builds</title>
+  <subtitle>My Notes about Ruby and gSchool</subtitle>
+  <id>http://blairbuilds.herokuapp.com/</id>
+  <link href="http://blairbuilds.herokuapp.com/"/>
+  <link href="http://blairbuilds.herokuapp.com/feed.xml" rel="self"/>
+  <updated>2013-03-16T17:12:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>TITLE</title>
+    <link rel="alternate" href="/2013/03/16/title.html"/>
+    <id>/2013/03/16/3-simple-stretches-for-people-living-at-work.html</id>
+    <published>2013-03-16T17:12:00Z</published>
+    <updated>2013-03-16T17:12:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">SUMMARY &lt;h3&gt;Bird Dog&lt;/h3&gt;</summary>
+    <content type="html">SUMMARY + CONTENT</content>
+  </entry>
+</feed>

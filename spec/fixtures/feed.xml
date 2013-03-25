@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blair Builds</title>
+  <subtitle>My Notes about Ruby and gSchool</subtitle>
+  <id>http://blairbuilds.herokuapp.com/</id>
+  <link href="http://blairbuilds.herokuapp.com/"/>
+  <link href="http://blairbuilds.herokuapp.com/feed.xml" rel="self"/>
+  <updated>2013-03-16T17:12:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>3 Simple Stretches for People Living at Work</title>
+    <link rel="alternate" href="/2013/03/16/3-simple-stretches-for-people-living-at-work.html"/>
+    <id>/2013/03/16/3-simple-stretches-for-people-living-at-work.html</id>
+    <published>2013-03-16T17:12:00Z</published>
+    <updated>2013-03-16T17:12:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.1.min.css"&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"&gt;&lt;/script&gt;
+&lt;script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"&gt;&lt;/script&gt;&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.1.min.css"&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"&gt;&lt;/script&gt;
+&lt;script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/codefinger"&gt;Joe Kutner&lt;/a&gt; recently visited gSchool and renewed my inspiration for being healthy.
+&lt;div class="pull-right"&gt;
+  &lt;div id="donut" style="height: 250px;"&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;#39;ve been focusing on consuming zero processed foods, eating 50% veggies with a random remainder of meats/fruits/nuts mixed in. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class="container"&gt;&lt;/div&gt;
+
+&lt;p&gt;These are the most basic workouts that will keep you healthy while working at a desk. &lt;/p&gt;
+
+&lt;h3&gt;Bird Dog&lt;/h3&gt;
+
+&lt;div align="center"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/3KiN9CAqvFY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;&lt;strong&gt;To perform the exercise, you&amp;#39;ll need to get on all fours. Then lift your right arm and left leg simultaneously and extend them until they are parallel with the ground.  Hold this position for 7 to 8 seconds.  Finally, lower your hand and knee, gently sweep the ground, and raise them again for another repetition.  Switch sides after four to five repetitions and repeat.&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h3&gt;Curl Up&lt;/h3&gt;
+
+&lt;div align="center"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/eWcHLkE7CCQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;&lt;strong&gt;To perform the exercise, lay flat on your back with your left leg bent, and your right leg straight. Then place your hand underneath the small of your back such that they fill in the gap created by the curve of your spine. Begin by lifting your head and upper shoulders off of the floor. Hold yourself in this elevated position for 7 to 8 seconds, while continuing to breathe. Finally, return your shoulders to the ground. Repeat the exercises four to five times, switch your legs, and then repeat another four to five times. If you need to increase the difficulty, try lifting your elbows off the ground with your shoulders.&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h3&gt;Side Bridge&lt;/h3&gt;
+
+&lt;div align="center"&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/Z6WlAMjSNVM?list=UUdw0lk2jp6g9Za4ualP5tvA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;&lt;strong&gt;To perform the side bridge, lay on your side and prop your body up with your elbow and knees.  Hold this position for 7 to 8 seconds while continuing to breathe and repeat four to five times for each side. You should not try to increase the difficulty by increasing the duration of the exercise. Instead, increase the number of repetitions as necessary.&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;script&gt;
+
+Morris.Donut({
+  element: 'donut',
+  data: [
+    {label: "Veggies", value: 40},
+    {label: "Fruits", value: 30},
+    {label: "Meats", value: 20},
+    {label: "other", value: 10}
+  ],
+  colors:['#00CC00','#FF6600','#FF9999','#cccccc']
+});&lt;/script&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Focus Week Retrospective</title>
+    <link rel="alternate" href="/2013/03/15/focus-week-retrospective.html"/>
+    <id>/2013/03/15/focus-week-retrospective.html</id>
+    <published>2013-03-15T15:04:00Z</published>
+    <updated>2013-03-15T15:04:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;This week has been fun. My group was turned loose to restart and extend an early project. We were familiar with the problems so it took about two days to finish instead of two weeks on the first pass. The best part is that we got to thoroughly test our code, and extend it with some get_const and send. I don’t know if it would be considered meta-programming, but it felt like it. &lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;This week has been fun. My group was turned loose to restart and extend an early project. We were familiar with the problems so it took about two days to finish instead of two weeks on the first pass. The best part is that we got to thoroughly test our code, and extend it with some get_const and send. I don’t know if it would be considered meta-programming, but it felt like it. &lt;/p&gt;
+
+&lt;p&gt;fun code example 1:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;attribute&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;
+  &lt;span class="nb"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;find_by_&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;attribute&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;attribute&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_sym&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;find_all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;attribute&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;
+  &lt;span class="nb"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;find_all_by_&lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;attribute&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;attribute&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_sym&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;fun code example 2:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nc"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;route&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;table&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;function&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{})&lt;/span&gt;
+  &lt;span class="vi"&gt;@table&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;camel_case&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;take_off_s&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;table&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+  &lt;span class="vi"&gt;@function&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;function&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_sym&lt;/span&gt;
+  &lt;span class="n"&gt;get_response&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nc"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;get_response&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;params&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+    &lt;span class="no"&gt;SalesEngineWeb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;const_get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vi"&gt;@table&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vi"&gt;@function&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="k"&gt;else&lt;/span&gt;
+    &lt;span class="no"&gt;SalesEngineWeb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;const_get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vi"&gt;@table&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vi"&gt;@function&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Beyond coding, I finally get to give my lightning talk about arduino. Jeff decided to dedicate the entire day to arduino topics and luckily i get to introduce ruby+arduino to the class of rubyists. &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Getting Started with Arduino</title>
+    <link rel="alternate" href="/2013/03/14/getting-started-with-arduino.html"/>
+    <id>/2013/03/14/getting-started-with-arduino.html</id>
+    <published>2013-03-14T23:46:00Z</published>
+    <updated>2013-03-14T23:46:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;hr /&gt;
+
+&lt;h4&gt;&lt;a href="https://docs.google.com/presentation/d/1Pga0nURs_gWLGFuuyeRFqi2UeD7qJKYQh8w5tp7MAyY/edit?usp=sharing"&gt;link to presentation slides&lt;/a&gt;&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/gp/product/B0051QHPJM/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0051QHPJM&amp;linkCode=as2&amp;tag=faccatitefin-20"&gt;Starter Kit for Uno&lt;/a&gt;&lt;/h4&gt;
+</summary>
+    <content type="html">&lt;hr /&gt;
+
+&lt;h4&gt;&lt;a href="https://docs.google.com/presentation/d/1Pga0nURs_gWLGFuuyeRFqi2UeD7qJKYQh8w5tp7MAyY/edit?usp=sharing"&gt;link to presentation slides&lt;/a&gt;&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;&lt;a href="http://www.amazon.com/gp/product/B0051QHPJM/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0051QHPJM&amp;linkCode=as2&amp;tag=faccatitefin-20"&gt;Starter Kit for Uno&lt;/a&gt;&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;h1&gt;Getting Started&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;gem&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;dino&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Upload the Bootstrapper&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open &lt;a href="http://arduino.cc/en/Main/Software"&gt;the normal Arduino IDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the bootstrapper &lt;a href="https://raw.github.com/austinbv/dino/master/src/du.ino"&gt;src/du.ino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open the file in the Arduino IDE&lt;/li&gt;
+&lt;li&gt;Plug in your Arduino via USB&lt;/li&gt;
+&lt;li&gt;Click the upload button (an arrow)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Verify Install&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build the sample circuit &lt;a href="https://raw.github.com/austinbv/dino/master/examples/led/led.png"&gt;examples/led/led.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;From your terminal, execute &lt;code&gt;ruby example/led/led.rb&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Observe your LED blinking continuously&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>HTML&amp;CSS Section1</title>
+    <link rel="alternate" href="/2013/03/11/html-css-section1.html"/>
+    <id>/2013/03/11/html-css-section1.html</id>
+    <published>2013-03-11T21:18:00Z</published>
+    <updated>2013-03-11T21:18:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Beyond learning pure ruby, we are shifting focus and adding web output to our ruby applications.&lt;/p&gt;
+
+&lt;p&gt;Since the web connects the largest set of people, its beneficial that we understand how to create and design web applications. &lt;/p&gt;
+
+&lt;p&gt;We have started to read &lt;a href="http://htmlandcssbook.com"&gt;http://htmlandcssbook.com&lt;/a&gt; because our current projects take previous problems and require a web output. &lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Beyond learning pure ruby, we are shifting focus and adding web output to our ruby applications.&lt;/p&gt;
+
+&lt;p&gt;Since the web connects the largest set of people, its beneficial that we understand how to create and design web applications. &lt;/p&gt;
+
+&lt;p&gt;We have started to read &lt;a href="http://htmlandcssbook.com"&gt;http://htmlandcssbook.com&lt;/a&gt; because our current projects take previous problems and require a web output. &lt;/p&gt;
+
+&lt;p&gt;While reading section 1, I discovered &lt;em&gt;definition lists&lt;/em&gt;. They allow you to create a list of words with their definitions indented.&lt;/p&gt;
+
+&lt;p&gt;Below is some code to show how we create a definition list.   &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;&amp;lt;dl&amp;gt;  &lt;/span&gt;
+&lt;span class="x"&gt;  &lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%&lt;/span&gt; &lt;span class="vi"&gt;@customer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;each&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;customer&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;        &lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;dt&amp;gt;Name: &amp;lt;/dt&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;dd&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%=&lt;/span&gt; &lt;span class="n"&gt;customer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+
+&lt;span class="x"&gt;    &amp;lt;dt&amp;gt;Age: &amp;lt;/dt&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;dd&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%=&lt;/span&gt; &lt;span class="n"&gt;customer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;age&lt;/span&gt;&lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+
+&lt;span class="x"&gt;    &amp;lt;dt&amp;gt;Gender: &amp;lt;/dt&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;dd&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%=&lt;/span&gt; &lt;span class="n"&gt;customer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;gender&lt;/span&gt;&lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+
+&lt;span class="x"&gt;    &amp;lt;dt&amp;gt;Day of Birth:&amp;lt;/dt&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;dd&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%=&lt;/span&gt; &lt;span class="n"&gt;customer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dob&lt;/span&gt;&lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;/dd&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;  &lt;/span&gt;&lt;span class="cp"&gt;&amp;lt;%&lt;/span&gt; &lt;span class="k"&gt;end&lt;/span&gt; &lt;span class="cp"&gt;%&amp;gt;&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;span class="x"&gt;&amp;lt;/dl&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;with output:&lt;/p&gt;
+
+&lt;dl&gt;
+    &lt;dt&gt;Name: &lt;/dt&gt;
+    &lt;dd&gt;John Don&lt;/dd&gt;
+
+    &lt;dt&gt;Age: &lt;/dt&gt;
+    &lt;dd&gt;23&lt;/dd&gt;
+
+    &lt;dt&gt;Gender: &lt;/dt&gt;
+    &lt;dd&gt;Male&lt;/dd&gt;
+
+    &lt;dt&gt;Day of Birth:&lt;/dt&gt;
+    &lt;dd&gt;12th May 1986&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;I know that a customer and their attributes are not appropriate usage of definition lists but it works. &lt;/p&gt;
+
+&lt;p&gt;Most of this section was a refresher. Our previous project &lt;a href="http://trafficspy.herokuapp.com"&gt;TrafficSpy&lt;/a&gt; required some HTML knowledge and I put &lt;a href="http://blog.getbootstrap.com"&gt;twitter bootstrap&lt;/a&gt; to work creating a decent layout and lists. &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Week 5 Retrospective</title>
+    <link rel="alternate" href="/2013/03/08/week-5-retrospective.html"/>
+    <id>/2013/03/08/week-5-retrospective.html</id>
+    <published>2013-03-08T16:03:00Z</published>
+    <updated>2013-03-08T16:03:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;I had fun with &lt;a href="http://trafficspy.herokuapp.com"&gt;TrafficSpy&lt;/a&gt;. Working with &lt;a href="http://twitter.com/novohispano"&gt;Jorge&lt;/a&gt; was entertaining and educational. Contribution was fairly equal, when one of us was writing code the other would keep the project in sight. I tended to write the complex methods and jorge would save the day with a refactor.  &lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;I had fun with &lt;a href="http://trafficspy.herokuapp.com"&gt;TrafficSpy&lt;/a&gt;. Working with &lt;a href="http://twitter.com/novohispano"&gt;Jorge&lt;/a&gt; was entertaining and educational. Contribution was fairly equal, when one of us was writing code the other would keep the project in sight. I tended to write the complex methods and jorge would save the day with a refactor.  &lt;/p&gt;
+
+&lt;p&gt;We utilized SinatraRB, it was great and i’ll definitely be using it again. I think the world needs a sinatra esque version of http://railsapps.github.com/. Sequel was a great bridge to make it so i didn’t need to learn SQL. I think i’ll have to learn SQL eventually, but this was great. I think it would have been great to experience ActiveRecord instead of sequel on this project, but that might have made it too easy. &lt;/p&gt;
+
+&lt;p&gt;The only thing that delayed our programming was postgres and testing. Its clear that we should make a program DB agnostic, but we got the wrong goal stuck in our minds. The programming was a great solidifier of things we learned in SalesEngine, the real learning curve for this project was learning sequel and sinatra.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Obama For America&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The one thing that stuck with me is the fact that if you plan for disaster you’ll be ready for disaster. secretly plan a few disasters, make sure you (and your team) have accounted for all of it. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Amazon gives tools to plan for disaster, use them correctly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I learned that you can’t be successful unless you speak with your customers. Really understand how they’re using your product in their toolset. &lt;/p&gt;
+
+&lt;p&gt;I would definitely go all-in, 12 hours a day, and 7 days a week for politics&amp;hellip; &lt;a href="http://www.twitter.com/j3"&gt;@J3&lt;/a&gt; if you’re running for office let me know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Big Picture&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m feeling relatively comfortable with databases but it will be great to start playing with ORMs!!! WOO. I’m mostly happy that i’m having fun everyday, no matter what the project is we have been working through i’ve been having lots of fun. &lt;/p&gt;
+
+&lt;p&gt;It does seem that formalized project management among groups has been lax, it will straighten out when our projects get more complex. I think someone in each group will need to identify themselves as the project manager, the quarterback. &lt;/p&gt;
+
+&lt;div align="center"&gt;
+  &lt;hr /&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Great to meet @&lt;a href="https://twitter.com/harper"&gt;harper&lt;/a&gt; and Obama&amp;rsquo;s tech team @&lt;a href="https://twitter.com/galvanize"&gt;galvanize&lt;/a&gt;! &lt;a href="https://twitter.com/search/%23OFACO"&gt;#OFACO&lt;/a&gt;&lt;/p&gt;&amp;mdash; philbattos (@philbattos) &lt;a href="https://twitter.com/philbattos/status/309832629870534656"&gt;March 8, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;looking sharp &lt;a href="https://twitter.com/search/%23ofaco"&gt;#ofaco&lt;/a&gt; &lt;a href="http://t.co/lwb3DY673W" title="http://twitter.com/blairanderson/status/309812424914137089/photo/1"&gt;twitter.com/blairanderson/…&lt;/a&gt;&lt;/p&gt;&amp;mdash; blair anderson (@blairanderson) &lt;a href="https://twitter.com/blairanderson/status/309812424914137089"&gt;March 7, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>One month down, thoughts...</title>
+    <link rel="alternate" href="/2013/03/01/one-month-down-thoughts.html"/>
+    <id>/2013/03/01/one-month-down-thoughts.html</id>
+    <published>2013-03-01T16:26:00Z</published>
+    <updated>2013-03-01T16:26:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Thus far, gSchool has been amazing. &lt;a href="http://www.twitter.com/cmaxw"&gt;Charles Max Wood&lt;/a&gt;(from &lt;a href="http://www.rubyrogues.com"&gt;ruby rogues&lt;/a&gt;) asked me “&lt;a href="https://twitter.com/cmaxw/status/307506149639471104"&gt;How is gschool?&lt;/a&gt;” and I couldn’t fit my response into 140 characters so i’ll be sure to send him this blog post.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Thus far, gSchool has been amazing. &lt;a href="http://www.twitter.com/cmaxw"&gt;Charles Max Wood&lt;/a&gt;(from &lt;a href="http://www.rubyrogues.com"&gt;ruby rogues&lt;/a&gt;) asked me “&lt;a href="https://twitter.com/cmaxw/status/307506149639471104"&gt;How is gschool?&lt;/a&gt;” and I couldn’t fit my response into 140 characters so i’ll be sure to send him this blog post.&lt;/p&gt;
+
+&lt;p&gt;One month in and i’m feeling great. On 1 to 10 scale of confidence/happiness, i’m at 9.  The learning experience is exactly what I expected it to be; completely immersed in ruby dev culture and challenged with problems that are geared to teach specific skills.&lt;/p&gt;
+
+&lt;p&gt;In the first week as we were getting to know each-other, everyone was generally friendly. The progression of new projects helps peel back a layer of our personalities. We see panic, we see frustration, but most important is that we see happiness through solving problems(with ruby). &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Projects don’t fail because of technology, they fail because of people. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Beyond our ruby learning, our people skills are being challenged. Each project brings problems that neither person has solved before, and it seems that problem solving is the absolute best way to get to know a person. because of differing personalities and skill-sets, the relationships are evolving. I think it will continue organically for the next few months and friendships will grow stronger with some than with others. Each day we’re better understanding how important it is to have people skills. &lt;/p&gt;
+</content>
+  </entry>
+</feed>

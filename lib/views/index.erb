@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <% @entries.each_with_index do |entry,index| %>
+      <div class="entry<%= index % 2 == 0 ? ' even' : ' odd' %>">
+        <h2 class="title"><a href="<%= entry.url %>"><%= entry.title %></a></h2>
+        <blockquote>
+          <p><%= entry.summary %></p>
+          <small>by <%= entry.author.name %></small>
+        </blockquote>
+      </div>
+    <% end %>
+    </div>
+  </body>
+</html>
