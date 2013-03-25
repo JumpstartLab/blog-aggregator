@@ -31,7 +31,7 @@ module Blogs
       "Christopher" => "http://serknight.herokuapp.com/feed.xml",
       "Chelsea" => "http://komlo.herokuapp.com/feed.xml",
       "John" => "http://jmaddux-blog.herokuapp.com/feed.xml",
-      "Aimee" "http://aimzatron.herokuapp.com/feed.xml",
+      "Aimee" => "http://aimzatron.herokuapp.com/feed.xml",
       "Josh" => "http://jmejia.herokuapp.com/feed.xml",
       "Daniel" => "http://danielmee.herokuapp.com/feed.xml",
       "Ron" => "http://writersblock.herokuapp.com/feed.xml",
