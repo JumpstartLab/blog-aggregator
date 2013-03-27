@@ -30,8 +30,12 @@ module Blogs
 
   def cache
     authors.each do |author|
-      puts "Caching Blog for #{author.name}..."
-      author.save
+      begin
+        puts "Caching Blog for #{author.name}..."
+        author.save
+      rescue Exception => exception
+        puts "Problem with caching #{author.name} URL #{author.url}\n\n #{exception}"
+      end
     end
   end
 
