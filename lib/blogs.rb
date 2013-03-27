@@ -114,7 +114,7 @@ module Blogs
   author "Shane", "http://shaneblog.herokuapp.com/feed.xml"
   author "Laura", "http://refactoring-rainbows.herokuapp.com/feed.xml"
   author "Geoff", "http://geoffsblog.herokuapp.com/feed.xml"
-  author "Kyle", "http://kylesuss.com/feed.xml"
+  author "Kyle", "http://kylesuss.herokuapp.com/feed.xml"
   author "Logan", "http://logan-gschool.herokuapp.com/feed.xml"
   author "Brad", "http://bradsheehan.herokuapp.com/feed.xml"
   author "Elaine", "http://lalalainexd-blog.herokuapp.com/feed.xml"
