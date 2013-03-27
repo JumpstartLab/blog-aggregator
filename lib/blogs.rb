@@ -89,7 +89,7 @@ module Blogs
   end
 
   def self.author(name,url)
-    authors.push Author.new name, url, "feeds/#{name}.xml"
+    authors.push Author.new(name,url,"feeds/#{name}.xml")
   end
 
   author "Blair", "http://blairbuilds.herokuapp.com/feed.xml"

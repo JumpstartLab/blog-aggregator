@@ -8,7 +8,7 @@ module Blogs
     attribute :href, String
   end
 
-  class Author
+  class BlogAuthor
     include HappyMapper
     element :name, String
   end
@@ -22,7 +22,7 @@ module Blogs
     element :link, Link
 
     def author
-      author = Author.new
+      author = BlogAuthor.new
       author.name = feed.author
       author
     end
