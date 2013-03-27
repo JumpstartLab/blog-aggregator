@@ -1,5 +1,6 @@
-require 'fileutils'
 require 'faraday'
+require 'dalli'
+require 'memcachier'
 
 module Blogs
   extend self
@@ -8,9 +9,11 @@ module Blogs
     authors.map do |author|
       begin
         puts "Reading Blog from cache for #{author.name}"
-        author.feed_from_file
+        author.feed_from_cache
+        puts "Feed: #{author.feed.class}"
+        author.feed
       rescue Exception => exception
-        puts "Problem with #{author.name} cached file #{author.file}:\n\n#{exception}"
+        puts "Problem with #{author.name} cached #{author.feed}:\n\n#{exception}\n\n #{exception.backtrace.join("\n")}"
         nil
       end
     end.compact
@@ -32,6 +35,7 @@ module Blogs
     authors.each do |author|
       begin
         puts "Caching Blog for #{author.name}..."
+        author.feed_from_url
         author.save
       rescue Exception => exception
         puts "Problem with caching #{author.name} URL #{author.url}\n\n #{exception}"
@@ -40,23 +44,26 @@ module Blogs
   end
 
   class Author
-    attr_reader :name, :url, :file
-    def initialize(name,url,file)
+    def initialize(name,url)
       @name = name
       @url = url
-      @file = file
     end
 
-    def feed_from_file
-      feed_from_contents file_contents
+    attr_reader :name, :url
+
+    attr_accessor :feed
+
+    def feed_from_cache
+      self.feed = cache_contents
     end
 
     def feed_from_url
-      feed_from_contents url_contents
+      self.feed = feed_from_contents url_contents
     end
 
-    def file_contents
-      File.read file
+    def cache_contents
+      cache = Dalli::Client.new
+      cache.get(cache_key)
     end
 
     def url_contents
@@ -68,13 +75,15 @@ module Blogs
     end
 
     def save
-      FileUtils.mkdir_p("feeds")
-      File.open file, "w" do |file|
-        file.write url_contents
-      end
+      cache = Dalli::Client.new
+      cache.set(cache_key,feed)
     end
 
     private
+
+    def cache_key
+      name.to_s.gsub(' ','-')
+    end
 
     def feed_from_contents(contents)
       feed = Feed.parse(contents, single: true)
@@ -93,7 +102,7 @@ module Blogs
   end
 
   def self.author(name,url)
-    authors.push Author.new(name,url,"feeds/#{name}.xml")
+    authors.push Author.new(name,url)
   end
 
   author "Blair", "http://blairbuilds.herokuapp.com/feed.xml"

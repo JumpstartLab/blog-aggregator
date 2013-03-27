@@ -5,6 +5,8 @@ gem "sinatra"
 gem "nokogiri-happymapper"
 gem "faraday"
 gem "sanitize"
+gem 'memcachier'
+gem 'dalli'
 
 group :development do
   gem "shotgun"
