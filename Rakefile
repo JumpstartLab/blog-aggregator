@@ -4,6 +4,5 @@ require 'blogs'
 require 'feed'
 
 task :fetch do
-  Blogs.save
-  puts Blogs.cached_feeds
+  Blogs.cache
 end
