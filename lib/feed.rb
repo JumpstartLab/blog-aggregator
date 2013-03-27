@@ -1,3 +1,6 @@
+require 'happymapper'
+require 'sanitize'
+
 module Blogs
 
   class Link

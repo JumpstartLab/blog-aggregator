@@ -1,5 +1,26 @@
+require 'fileutils'
+require 'faraday'
+
 module Blogs
   extend self
+
+  def cached_feeds
+    feed_urls.map do |author,url|
+      begin
+        puts "Reading Blog from cache for #{author}"
+
+        content = File.read("feeds/#{author}.xml")
+
+        feed = Feed.parse(content, single: true)
+        feed.base_url = url.gsub("/feed.xml","")
+        feed.author = author
+        feed
+      rescue Exception => exception
+        puts "Problem with #{author} cached file:\n\n#{exception}"
+        nil
+      end
+    end.compact
+  end
 
   def feeds
     feed_urls.map do |author,url|
@@ -16,6 +37,15 @@ module Blogs
         nil
       end
     end.compact
+  end
+
+  def save
+    feeds.each do |feed|
+      FileUtils.mkdir_p("feeds")
+      File.open "feeds/#{feed.author}.xml", "w" do |file|
+        file.write feed.to_xml
+      end
+    end
   end
 
   def feed_urls
